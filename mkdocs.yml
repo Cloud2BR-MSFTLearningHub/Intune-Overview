@@ -1,9 +1,9 @@
 # Update site_name, site_url, repo_url, and repo_name for each new repository.
-site_name: Documentation Hub
-site_description: Overview and setup documentation for this project.
-site_url: https://cloud2br-msftlearninghub.github.io/org-repo-template/
-repo_url: https://github.com/Cloud2BR-MSFTLearningHub/org-repo-template
-repo_name: Cloud2BR-MSFTLearningHub/org-repo-template
+site_name: Microsoft Intune Setup and Overview Hub
+site_description: Detailed guidance to plan, deploy, secure, and operate Microsoft Intune across BYOD, corporate-owned, frontline, and hybrid environments.
+site_url: https://cloud2br-msftlearninghub.github.io/Intune-Overview/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Intune-Overview
+repo_name: Cloud2BR-MSFTLearningHub/Intune-Overview
 docs_dir: docs
 site_dir: site
 copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
@@ -46,3 +46,21 @@ extra:
 nav:
   - Home: index.md
   - Overview: overview.md
+  - Foundation:
+    - Architecture and Service Model: foundation/architecture-and-service-model.md
+    - Planning and Licensing: foundation/planning-and-licensing.md
+    - Network and Endpoints: foundation/network-and-endpoints.md
+  - Environments:
+    - BYOD and App Protection: environments/byod-and-app-protection.md
+    - Corporate-Owned Device Management: environments/corporate-owned-devices.md
+    - Frontline, Kiosk, and Shared Devices: environments/frontline-kiosk-shared.md
+    - Hybrid and Co-Management: environments/hybrid-and-co-management.md
+  - Implementation:
+    - Tenant Setup and Baseline: implementation/tenant-setup-and-baseline.md
+    - Enrollment Across Platforms: implementation/enrollment-across-platforms.md
+    - Compliance and Conditional Access: implementation/compliance-and-conditional-access.md
+    - Configuration Profiles and Security Baselines: implementation/configuration-and-baselines.md
+    - Apps, Protection, and Lifecycle: implementation/apps-protection-and-lifecycle.md
+  - Operations:
+    - Monitoring and Reporting: operations/monitoring-and-reporting.md
+    - Rollout, Helpdesk, and Change Management: operations/rollout-helpdesk-change.md
