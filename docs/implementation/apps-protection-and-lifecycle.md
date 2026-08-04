@@ -26,7 +26,7 @@ protection and lifecycle governance.
 
 | Environment | App strategy |
 | --- | --- |
-| BYOD | Managed productivity apps plus app protection policies |
+| BYOD (bring your own device) | Managed productivity apps plus app protection policies |
 | Corporate-owned | Required and available assignments with full lifecycle controls |
 | Frontline/shared | Minimal, task-specific app set with strict change control |
 

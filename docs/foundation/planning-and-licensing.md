@@ -27,16 +27,16 @@ and support model before policy creation begins.
 
 | Dimension | Example decision |
 | --- | --- |
-| Environment strategy | BYOD only, full MDM, or mixed model |
+| Environment strategy | BYOD (bring your own device) only, full MDM (mobile device management), or mixed model |
 | Platform scope | Windows, macOS, iOS/iPadOS, Android, Linux |
 | Security posture | Baseline standards and Conditional Access model |
 | App strategy | Store apps, Win32, line-of-business apps, web apps |
-| Migration path | Greenfield, third-party MDM migration, co-management |
+| Migration path | Greenfield, third-party MDM (mobile device management) migration, co-management |
 
 ## Licensing considerations
 
 1. Intune entitlement for managed users and devices.
-2. Microsoft Entra ID P1 or P2 for Conditional Access and dynamic groups.
+2. Microsoft Entra ID P1 (Plan 1) or P2 (Plan 2) for Conditional Access and dynamic groups.
 3. Microsoft Defender integration requirements for endpoint risk signals.
 4. Intune Suite capabilities where required (for example remote help or endpoint privilege controls).
 

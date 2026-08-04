@@ -1,4 +1,4 @@
-# BYOD and App Protection
+# BYOD (bring your own device) and App Protection
 
 Atlanta, USA
 
@@ -12,7 +12,7 @@ Last updated: 2026-08-04
 <details markdown>
 <summary>References</summary>
 
-- [What is Intune? MDM and MAM model](https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune)
+- [What is Intune? MDM (mobile device management) and MAM (mobile application management) model](https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune)
 - [Planning guide: personal vs organization-owned devices](https://learn.microsoft.com/en-us/intune/fundamentals/planning-guide#personal-devices-vs-organization-owned-devices)
 - [Add apps to Intune](https://learn.microsoft.com/en-us/intune/app-management/deployment/)
 
@@ -20,7 +20,7 @@ Last updated: 2026-08-04
 
 ## Strategy
 
-BYOD programs should prioritize data protection, identity trust, and user
+BYOD (bring your own device) programs should prioritize data protection, identity trust, and user
 experience without overreaching into personal device control.
 
 ## Recommended model
@@ -36,7 +36,7 @@ experience without overreaching into personal device control.
 | --- | --- |
 | Access | Require multifactor authentication and trusted app context |
 | Data movement | Restrict copy/paste and save-as to managed apps or locations |
-| Session control | Require app PIN and inactivity timeout where appropriate |
+| Session control | Require app PIN (personal identification number) and inactivity timeout where appropriate |
 | Device trust | Use device or app-level controls based on risk and legal constraints |
 
 ## Rollout sequence

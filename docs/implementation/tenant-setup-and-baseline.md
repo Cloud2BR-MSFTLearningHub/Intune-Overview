@@ -34,7 +34,7 @@ policies at scale.
 
 | Control area | Baseline recommendation |
 | --- | --- |
-| RBAC | Least privilege with scoped admin boundaries |
+| RBAC (role-based access control) | Least privilege with scoped admin boundaries |
 | Scope tags | Distributed administration model where needed |
 | Group strategy | Clear separation of user and device assignment groups |
 | Change management | Versioned policy change logs and approval flow |

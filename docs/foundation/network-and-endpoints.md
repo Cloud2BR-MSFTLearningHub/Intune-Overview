@@ -28,14 +28,14 @@ delivery, updates, and security signals across all managed environments.
 | --- | --- |
 | Intune core service | `*.manage.microsoft.com`, `*.dm.microsoft.com` |
 | Identity dependencies | `login.microsoftonline.com` |
-| Device actions and notifications | WNS, platform push services |
+| Device actions and notifications | WNS (Windows Push Notification Services), platform push services |
 | App and script delivery | Intune management extension and content delivery endpoints |
 | Autopilot and provisioning | Windows update and enrollment dependencies |
 
 ## Network design requirements
 
-- Allow required outbound traffic over TCP 443 (and 80 where required).
-- Avoid SSL inspection on endpoints where Microsoft states inspection is unsupported.
+- Allow required outbound traffic over TCP (transmission control protocol) 443 (and 80 where required).
+- Avoid SSL (secure sockets layer) inspection on endpoints where Microsoft states inspection is unsupported.
 - Validate proxy behavior for device and system contexts.
 - Include regional endpoints for macOS scripts and Win32 content where applicable.
 
@@ -50,5 +50,5 @@ delivery, updates, and security signals across all managed environments.
 ## Common failure patterns
 
 - Network teams allow identity endpoints but block Intune content delivery endpoints.
-- SSL inspection interrupts enrollment, attestation, or Defender-dependent traffic.
-- Regional CDN endpoints are omitted for globally distributed tenants.
+- SSL (secure sockets layer) inspection interrupts enrollment, attestation, or Defender-dependent traffic.
+- Regional CDN (content delivery network) endpoints are omitted for globally distributed tenants.

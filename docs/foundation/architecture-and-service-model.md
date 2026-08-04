@@ -37,10 +37,10 @@ and data posture in one operating model.
 | Access control | Enforce Conditional Access using compliance and risk signals |
 | Operations | Monitor health, enforce governance, and continuously improve |
 
-## MDM and MAM strategy
+## MDM (mobile device management) and MAM (mobile application management) strategy
 
 - MDM (mobile device management): full device control, preferred for corporate-owned endpoints.
-- MAM (mobile application management): app and data protection without full device management, preferred for BYOD.
+- MAM (mobile application management): app and data protection without full device management, preferred for BYOD (bring your own device).
 - Combined mode: full device management plus app protection for high-sensitivity workloads.
 
 ## Control boundaries
@@ -54,6 +54,6 @@ and data posture in one operating model.
 ## Architecture anti-patterns
 
 - One global policy ring for every device type.
-- Treating BYOD and corporate-owned as equivalent risk models.
+- Treating BYOD (bring your own device) and corporate-owned as equivalent risk models.
 - Applying blocking Conditional Access before compliance and remediation workflows are stable.
 - Skipping pilot validation for network, enrollment, and app delivery dependencies.

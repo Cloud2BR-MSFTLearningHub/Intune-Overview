@@ -29,9 +29,9 @@ Last updated: 2026-08-04
 
 ## Platform pathways
 
-| Platform | BYOD option | Corporate option |
+| Platform | BYOD (bring your own device) option | Corporate option |
 | --- | --- | --- |
-| Android | Personally owned work profile | Corporate-owned work profile, fully managed, dedicated, AOSP |
+| Android | Personally owned work profile | Corporate-owned work profile, fully managed, dedicated, AOSP (Android Open Source Project) |
 | iOS/iPadOS | User enrollment or device enrollment | Automated Device Enrollment or Configurator |
 | macOS | Company Portal user-driven enrollment | Automated Device Enrollment or direct provisioning |
 | Windows | Work account connect or Company Portal | Entra join, Autopilot, co-management, provisioning package |

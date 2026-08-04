@@ -27,7 +27,7 @@ Use a layered policy design with clear purpose by profile type.
 | --- | --- |
 | Security baseline | Fast adoption of vetted baseline controls |
 | Settings catalog profiles | Granular configuration for targeted requirements |
-| Template profiles | Scenario-based controls like VPN, Wi-Fi, kiosk, certificates |
+| Template profiles | Scenario-based controls like VPN (virtual private network), Wi-Fi, kiosk, certificates |
 | Applicability rules | Refine policy scope for specific Windows editions/versions |
 
 ## Implementation sequence
